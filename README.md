@@ -27,7 +27,7 @@ The project aims to demonstrate:
 - **Routing**: React Router
 - **Animations**: Framer Motion
 - **Icons**: React Icons / Lucide React
-- **Data**: Local JSON or Fake API
+- **Data**: Local JSON (JS files)
 - **Version Control**: Git & GitHub
 
 ---
