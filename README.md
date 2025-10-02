@@ -1,38 +1,12 @@
-# React Portfolio Project
+# React + Vite
 
-## Overview
-This is my ongoing **React portfolio project**, designed to showcase my frontend development skills, including **ReactJS**, **TailwindCSS**, **React Router**. The project highlights employee profiles with photo, name, email, and profession in a clean, responsive layout with smooth animations.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The project aims to demonstrate:
-- **Dynamic data handling** using React state and props
-- **Routing** between pages with React Router
-- **Responsive design** with TailwindCSS
-- **Interactive UI** with hover effects and smooth animations (Framer Motion)
-- **Frontend development best practices** for portfolio-ready projects
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Features
-- **Employee Profiles**: Displayed dynamically from a fake API or local data.
-- **Responsive Layout**: Works on mobile, tablet, and desktop screens.
-- **React Router Navigation**: Seamless page transitions.
-- **Animated Components**: Subtle animations to enhance UI/UX.
-- **Modern Design**: Clean, minimal, and professional look suitable for portfolios.
-- **Icons Integration**: Using `react-icons` / `lucide-react` for visually appealing icons.
+## Expanding the ESLint configuration
 
----
-
-## Technologies Used
-- **Frontend**: ReactJS, TailwindCSS
-- **Routing**: React Router
-- **Animations**: Framer Motion
-- **Icons**: React Icons / Lucide React
-- **Data**: Local JSON (JS files)
-- **Version Control**: Git & GitHub
-
----
-
-## Installation & Setup
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/pratimasingh3107/My_Portfolio.git
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
