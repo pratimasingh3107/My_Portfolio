@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import bgImg from "../assets/bg3.jpg";
+import profilePic from "../assets/profile2.jpg";
 
 export default function Hero() {
         return (
@@ -50,7 +51,7 @@ export default function Hero() {
                 <div className="absolute -top-10 -right-10 w-70 h-70 md:w-100 md:h-100 bg-gradient-to-tr from-[#FF6500] to-[#1E3E62] rounded-full opacity-30 blur-3xl animate-pulse"></div>
 
                 {/* Profile Photo */}
-                <img src="src/assets/profile2.jpg" alt="Profile" className="relative w-40 h-40 sm:w-52 sm:h-52 md:w-64 md:h-64 rounded-full border-4 border-[#FF6500] object-cover z-10"/>
+                <img src={profilePic} alt="Profile" className="relative w-40 h-40 sm:w-52 sm:h-52 md:w-64 md:h-64 rounded-full border-4 border-[#FF6500] object-cover z-10"/>
             </motion.div>
             </div>
         </section>

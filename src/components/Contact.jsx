@@ -56,7 +56,7 @@ export default function Contact() {
 
             {/* Contact Info */}
             <motion.div
-            className="flex justify-center gap-6 mb-12"
+            className="flex justify-center gap-4 sm:gap-6 mb-12"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.4 }}

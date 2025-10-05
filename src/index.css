@@ -22,3 +22,9 @@
         transform: translateY(0);
     }
 }
+
+@media (max-width:567px) {
+    section {
+        overflow: hidden;
+    }
+}
